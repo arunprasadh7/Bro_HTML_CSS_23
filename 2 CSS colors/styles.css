@@ -1,0 +1,23 @@
+body{
+  background-color: slategrey;
+}
+
+h1{
+  color: rgb(212, 78, 15);
+}
+
+h2{
+  color: burlywood;
+}
+
+#p1{
+  color: #52e42dd9;
+}
+
+#p2{
+  color: hsla(323, 97%, 48%, 0.89);
+}
+
+#p3{
+  color: rgb(5, 172, 223);
+}
