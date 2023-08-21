@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons-HTML</title>
+  </head>
+  <body>
+    <h3>This is a sample button</h3>
+    <a href="https://www.google.com/" target="_blank">
+      <button
+        style="
+          font-size: 25px;
+          background-color: rgb(233, 11, 11);
+          color: rgb(73, 72, 70);
+          border-radius: 25px;
+        "
+      >
+        Click here
+      </button>
+    </a>
+    <br />
+    <br />
+    <h3>adding accessibility using javascript</h3>
+    <button
+      onclick="doSomething()"
+      style="
+        font-size: 20px;
+        border-radius: 20px;
+        background-color: rgb(224, 221, 71);
+      "
+    >
+      JS function
+    </button>
+    <h3 id="greet">Hello!!</h3>
+    <script>
+      function doSomething() {
+        document.getElementById("greet").innerHTML = "GoodBye";
+      }
+    </script>
+  </body>
+</html>
